@@ -1,0 +1,163 @@
+   <body>{
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans','Lucida sans regular','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
+    border-style: solid;
+    border-color: orange rgb(241,201,126);
+   }
+   .head{
+    font-size: 2rem;
+    text-align: center;
+    font-family: monospace;
+    width: 100%;
+    height: 4.7rem;
+    background-color: rgb(7, 223, 7) rgb(84,134,4);
+    margin-top: -2.7rem;
+    color: rgb(238, 17, 17);
+}
+.head span{
+    margin-left: .5rem;
+    color: orange;
+}
+.head h1{
+    margin-left: -15rem;
+    background-image: ur1("headpic.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.head h3{
+    margin-top: -3.6rem;
+    font-size: .7rem;
+    margin-left: 10rem;
+}
+.header{
+    color: orange rgb(231,116,63);
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-indent: 15rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.intro{
+    width: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+    background-color: white rgb(252,238,217);
+}
+.intro .navbar {
+    text-align: center;
+    width: 90%;
+}
+.intro .navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.intro .navbar ul a{
+    color: orange rgb(255,136,0);
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    border-style: dotted ;
+    border-color: orange sandybrown;
+}
+.intro .navbar ul a:hover{
+    color: orangered;
+}
+.home p{
+    text-indent: 5rem;
+    margin-top: 3.5rem;
+}    
+.home p span{
+    color: green rgb(84,134,4);
+}
+.experience  h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    border-bottom: .15remsolid yellow rgb(218,218,140);
+    margin-top: 3.5rem;
+}
+.experience h1 span{
+    color: green olive;
+}
+.experience p{
+    text-indent: 5rem;
+}
+.about .para p{
+    text-indent: 5rem;
+}
+.about .para h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    border-bottom: .15rem solid yellow rgb(218,218,140);
+    margin-top: 3.5rem;
+}
+.about .para h1 span{
+    color: green olive;
+}
+.about .para span{
+    color: green rgb(84,134,4);
+}
+.about .para h2{
+    color: green olive;
+    font-size: 1.65rem;
+}
+.about .navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about .navbar ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: fit-content;
+    height: 3rem;
+    border: .15rem solid black;
+    background-color: white rgb(252,238,217);
+    color: seagreen;
+}
+.about .navbar ul li a:hover{
+    color: violet rgb(89,89,243);
+}
+.about .content h2{
+    color: green olive;
+    font-size: 1.85rem;
+}
+.about .content p{
+    text-indent: 5rem;
+}
+.about .content p span{
+    color: green rgb(84,134,4);
+}
+.about .content image{
+    width: 25rem;
+    height: 18rem;
+    margin-left: 25rem;
+    border: .15rem solid black;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.contact h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    border-bottom: .15rem solid yellow rgb(218,218,140);
+    margin-top: 3.5rem; 
+}
+.contact h3 span{
+    color: green olive;
+}
+.contact label{
+    color: green olive;
+    margin-left:29rem;
+    display: inline-block;
+}
+.contact i{
+    color: green olive;
+    font-size: 1.2rem;
+}
+.contact h3{
+    margin-left: 37rem;
+    margin-top: -1.5rem;
+}
+
